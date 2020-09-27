@@ -1,0 +1,41 @@
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  /* border-width: 1px;
+  border-color: red; */
+  /* background-color: red; */
+}
+
+.progress {
+  flex: 5;
+  height: 45px;
+  width: 300px;
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  /* align-self: center; */
+}
+
+.progress-done {
+  height: 100%;
+  /* width: 200px; */
+  opacity: 1;
+  background: linear-gradient(35deg, #f2709c, #ff9472);
+  box-shadow: 0 3px 3px -5px #f2709c;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* align-self: center; */
+}
+
+.skill-name {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 2;
+  font-size: 35px;
+  opacity: 0.8;
+}

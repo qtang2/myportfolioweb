@@ -1,0 +1,112 @@
+#resume_start {
+  height: 60px;
+}
+
+.resume-cards-item {
+  display: flex;
+  flex: 1;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 100;
+}
+.r-title {
+  background-color: #242424;
+  font-size: 32px;
+  color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.edu-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.school-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 1);
+  /* margin-bottom: 20px; */
+}
+.study-info {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  flex: 8;
+}
+.school-name {
+  font-size: 40px;
+  opacity: 0.8;
+}
+.major {
+  font-size: 25px;
+  opacity: 0.6;
+}
+
+.img-container {
+  display: flex;
+  flex: 1;
+}
+.school-img {
+  height: auto;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.subjects-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 960px) {
+  .r-title {
+    font-size: 28px;
+  }
+
+  .school-name {
+    font-size: 32px;
+  }
+  .major {
+    font-size: 20px;
+  }
+
+  .school-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .subjects-info {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .r-title {
+    font-size: 25px;
+  }
+
+  .school-name {
+    font-size: 28px;
+  }
+  .major {
+    font-size: 18px;
+  }
+
+  .school-img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .subjects-info {
+    font-size: 16px;
+  }
+}
