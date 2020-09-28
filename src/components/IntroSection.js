@@ -69,7 +69,7 @@ class IntroSection extends Component {
         <div className="download-container">
           <Link
             to="/files/QianTang-resume.pdf"
-            target="_self"
+            target="_blank"
             download
             className="download-link"
           >
