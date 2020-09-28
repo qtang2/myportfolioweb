@@ -75,7 +75,7 @@ function Cards() {
             <CardItem
               src="images/survey-form.png"
               text="This is a survey web page which collects people's opinions"
-              path="https://codepen.io/qtang2/full/rNeoYZx"
+              path="https://codepen.io/qtang2/full/JjXwPwd"
             />
           </ul>
         </div>
