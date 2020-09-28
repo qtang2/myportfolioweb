@@ -13,7 +13,6 @@ function SkillCard() {
         <SkillItem skillName="CSS" dataDone="60" width="60%" />
         <SkillItem skillName="Java" dataDone="80" width="80%" />
         <SkillItem skillName="Python" dataDone="70" width="70%" />
-        <SkillItem skillName="Node.js" dataDone="60" width="60%" />
         <SkillItem skillName="MySQL" dataDone="60" width="60%" />
       </li>
     </>
