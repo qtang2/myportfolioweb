@@ -37,5 +37,22 @@
   align-items: flex-start;
   flex: 2;
   font-size: 35px;
-  opacity: 0.8;
+  opacity: 0.85;
+}
+@media screen and (max-width: 960px) {
+  .skill-name {
+    font-size: 30px;
+  }
+  .progress {
+    height: 38px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skill-name {
+    font-size: 25px;
+  }
+  .progress {
+    height: 32px;
+  }
 }

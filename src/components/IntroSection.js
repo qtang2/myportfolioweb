@@ -43,7 +43,7 @@ class IntroSection extends Component {
           <a
             className="social-icon-link facebook"
             href="https://www.facebook.com/profile.php?id=100015576962274"
-            // target="_blank"
+            target="_blank"
             aria-label="Facebook"
           >
             <i className="fab fa-facebook-f" />
@@ -52,7 +52,7 @@ class IntroSection extends Component {
           <a
             className="social-icon-link linkedin"
             href="https://www.linkedin.com/in/qian-tang-ict/"
-            // target="_blank"
+            target="_blank"
             aria-label="LinkedIn"
           >
             <i className="fab fa-linkedin" />
@@ -60,7 +60,7 @@ class IntroSection extends Component {
           <a
             className="social-icon-link github"
             href="https://github.com/qtang2"
-            // target="_blank"
+            target="_blank"
             aria-label="Github"
           >
             <i className="fab fa-github" />

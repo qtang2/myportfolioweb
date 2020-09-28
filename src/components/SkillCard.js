@@ -9,9 +9,12 @@ function SkillCard() {
           <label>SKILLS</label>
         </div>
         <SkillItem skillName="React" dataDone="70" width="70%" />
+        <SkillItem skillName="HTML" dataDone="75" width="75%" />
+        <SkillItem skillName="CSS" dataDone="60" width="60%" />
         <SkillItem skillName="Java" dataDone="80" width="80%" />
-        <SkillItem skillName="JQuery" dataDone="40" width="40%" />
-        <SkillItem skillName="Node.js" dataDone="30" width="30%" />
+        <SkillItem skillName="Python" dataDone="70" width="70%" />
+        <SkillItem skillName="Node.js" dataDone="60" width="60%" />
+        <SkillItem skillName="MySQL" dataDone="60" width="60%" />
       </li>
     </>
   );

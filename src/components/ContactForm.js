@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./ContactForm.css";
-// import { Form, Button } from "react-bootstrap";
 import Modal from "react-modal";
 import emailjs from "emailjs-com";
 
