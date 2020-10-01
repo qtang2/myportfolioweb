@@ -10,7 +10,7 @@ function Cards() {
         <h1> Those are my portfolio</h1>
         <div className="cards__wrapper">
           <div>
-            <h3 style={{ marginLeft: "20px" }}>MOBILE</h3>
+            <h3 style={{ textAlign: "center" }}>MOBILE</h3>
             <hr
               style={{
                 color: "#000000",
@@ -19,6 +19,9 @@ function Cards() {
                 borderColor: "#000000",
                 margin: 20,
                 marginTop: 5,
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
               }}
             />
           </div>
@@ -43,7 +46,7 @@ function Cards() {
             />
           </ul>
           <div>
-            <h3 style={{ marginLeft: "20px" }}>Web</h3>
+            <h3 style={{ textAlign: "center" }}>Web</h3>
             <hr
               style={{
                 color: "#000000",
