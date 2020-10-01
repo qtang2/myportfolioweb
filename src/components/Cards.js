@@ -19,9 +19,6 @@ function Cards() {
                 borderColor: "#000000",
                 margin: 20,
                 marginTop: 5,
-                width: "100%",
-                display: "flex",
-                justifyContent: "center",
               }}
             />
           </div>
