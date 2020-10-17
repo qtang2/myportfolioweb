@@ -78,6 +78,43 @@ function Cards() {
               path="https://codepen.io/qtang2/full/JjXwPwd"
             />
           </ul>
+          <div>
+            <h3 style={{ textAlign: "center" }}>Web--React</h3>
+            <hr
+              style={{
+                color: "#000000",
+                backgroundColor: "#000000",
+                height: 0.5,
+                borderColor: "#000000",
+                margin: 20,
+                marginTop: 5,
+              }}
+            />
+            <ul className="cards__items">
+            <CardItem
+              src="images/random-quote-machine.png"
+              text="A website that display a random quote in random colors "
+              path="https://qiantangreactrandomquotemachine.netlify.app/"
+            />
+
+            <CardItem
+              src="images/markdown-previewer.png"
+              text="This is a editor previewer website where the pinputed text is rendered as HTML in the previewer window"
+              path="https://qiantangreactmarkdownpreviewer.netlify.app/"
+            />      
+            {/*
+            <CardItem
+              src="images/technical-documentation.png"
+              text="A Technical Documentation web page about JS"
+              path="https://codepen.io/qtang2/full/zYqyLVo"
+            />
+            <CardItem
+              src="images/survey-form.png"
+              text="This is a survey web page which collects people's opinions"
+              path="https://codepen.io/qtang2/full/JjXwPwd"
+            /> */}
+          </ul>
+          </div>
         </div>
       </div>
     </div>
