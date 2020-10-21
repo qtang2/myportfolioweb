@@ -101,13 +101,15 @@ function Cards() {
               src="images/markdown-previewer.png"
               text="This is a editor previewer website where the pinputed text is rendered as HTML in the previewer window"
               path="https://qiantangreactmarkdownpreviewer.netlify.app/"
-            />      
-            {/*
+            />   
+
             <CardItem
-              src="images/technical-documentation.png"
-              text="A Technical Documentation web page about JS"
-              path="https://codepen.io/qtang2/full/zYqyLVo"
-            />
+              src="images/drum-machine.png"
+              text="This is drum machine website where you can click button to hit the clip or press related key to play the clip"
+              path="https://qiantangreactdrummachine.netlify.app/"
+            />   
+            {/*
+            
             <CardItem
               src="images/survey-form.png"
               text="This is a survey web page which collects people's opinions"
