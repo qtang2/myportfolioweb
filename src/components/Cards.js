@@ -105,16 +105,25 @@ function Cards() {
 
             <CardItem
               src="images/drum-machine.png"
-              text="This is drum machine website where you can click button to hit the clip or press related key to play the clip"
+              text="This is a drum machine website where you can click button to hit the clip or press related key to play the clip"
               path="https://qiantangreactdrummachine.netlify.app/"
             />   
-            {/*
-            
+          </ul>
+
+          <ul className="cards__items">
             <CardItem
-              src="images/survey-form.png"
-              text="This is a survey web page which collects people's opinions"
-              path="https://codepen.io/qtang2/full/JjXwPwd"
-            /> */}
+              src="images/calculator.png"
+              text="An immediate execution calculator website that allow users to have fun"
+              path="https://qiantangreactrandomquotemachine.netlify.app/"
+            />
+
+            <CardItem
+              src="images/clock.png"
+              text="This is pomodoro clock website where users can start timing"
+              path="https://qiantangreactpomodoroclock.netlify.app/"
+            />   
+
+            
           </ul>
           </div>
         </div>
