@@ -51,6 +51,20 @@ class ResumeCards extends Component {
             ]}
           />
           <ResumeCardItem
+            src="images/freeCodeCamp-logo.png"
+            schoolName=" Website Projects "
+            major="Responsive Web Projects "
+            content="Major projects"
+            subjects={[
+              "Different web pages patterns, including a product landing page which display key component of a product, a tribute page introduces Winnie the Pooh, a Technical Documentation web page about JS, and a survey web page which collects people's opinions",
+              "A random quote machine website which can display random quote fetched from Internet and user can click the button to update the quote and the UI",
+              "A markdown previewer website that can render user’s inputted text in the editor window as HTML and display it in the preview window",
+              "A drum machine website where user can play different clips by click relative button or press relative keyboard",
+              "A calculator website which allow users to calculate, and I designed it as a immediate execution calculator",
+              "A pomodoro clock website where user can do timing within 60 minutes" 
+            ]}
+          />
+          <ResumeCardItem
             src="images/android-logo.jpg"
             schoolName=" Game of Emotion App(Android) "
             major="Graduation Project "
@@ -73,18 +87,7 @@ class ResumeCards extends Component {
               "Implement server side services, like authentication, data recieve and send",
             ]}
           />
-          <ResumeCardItem
-            src="images/freeCodeCamp-logo.png"
-            schoolName=" Website Projects "
-            major="Responsive Web Projects "
-            content="Major projects"
-            subjects={[
-              "A product landing page which display key component of a product",
-              "A tribute page introduces Winnie the Pooh",
-              "A Technical Documentation web page about JS",
-              "A survey web page which collects people's opinions",
-            ]}
-          />
+          
           <SkillCard />
         </ul>
       </div>
