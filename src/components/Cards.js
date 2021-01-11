@@ -174,6 +174,39 @@ function Cards() {
           </ul>
           </div>
 
+          <div>
+            <h3 style={{ textAlign: "center" }}>API and Microservices - Node and Express</h3>
+            <hr
+              style={{
+                color: "#000000",
+                backgroundColor: "#000000",
+                height: 0.5,
+                borderColor: "#000000",
+                margin: 20,
+                marginTop: 5,
+              }}
+            />
+            <ul className="cards__items">
+            <CardItem
+              src="images/url-shortener.png"
+              text="This project allows a user to type in an URL and get a short version of it, then a user can use the short version to jump into that website"
+              path="https://fcc-shorterurl-qian.glitch.me/"
+            />
+
+            <CardItem
+              src="images/exercise-tracker.png"
+              text="This project is used to record users' exercise log. A user can create a new user, can add new exercise to a current user and view a user's full exercise log."
+              path="https://fcc-exercisetracker-qian.glitch.me"
+            />   
+
+            <CardItem
+              src="images/metadata-service.png"
+              text="This project provide a microservice which allows a user upload a file and get a response including the file's information."
+              path="https://fcc-metadata-qian.glitch.me"
+            />   
+          </ul>
+          </div>
+
 
         </div>
       </div>
