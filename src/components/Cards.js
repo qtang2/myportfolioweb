@@ -126,6 +126,55 @@ function Cards() {
             
           </ul>
           </div>
+
+          <div>
+            <h3 style={{ textAlign: "center" }}>Data Visualization--D3.js</h3>
+            <hr
+              style={{
+                color: "#000000",
+                backgroundColor: "#000000",
+                height: 0.5,
+                borderColor: "#000000",
+                margin: 20,
+                marginTop: 5,
+              }}
+            />
+            <ul className="cards__items">
+            <CardItem
+              src="images/bar-chart.png"
+              text="A bar chart built by D3.js which shows the USA GDP from 1947-2015  "
+              path="https://codepen.io/qtang2/full/gOMmWxL"
+            />
+
+            <CardItem
+              src="images/scatterplot-graph.png"
+              text="A scatterplot graph built by D3.js which shows the data about doping in Professional Bicycle Racing USA GDP from 1947-2015"
+              path="https://codepen.io/qtang2/full/rNLmjYN"
+            />   
+
+            <CardItem
+              src="images/heat-map.png"
+              text="A heat map built with D3.js which gives information about monthly global Land-Surface temperature"
+              path="https://codepen.io/qtang2/full/MWeOYOx"
+            />   
+          </ul>
+
+          <ul className="cards__items">
+            <CardItem
+              src="images/choropleth-map.png"
+              text="A choropleth map built with D3.js which shows the prcentage of adults age 25 and older with a bachelor's degree or higher (2010-2014) in USA"
+              path="https://codepen.io/qtang2/full/MWeXYyy"
+            />
+
+            <CardItem
+              src="images/treemap-diagram.png"
+              text="A treemap built with D3.js which shows the Highest crossiong movies"
+              path="https://codepen.io/qtang2/full/LYZrpNN"
+            />   
+          </ul>
+          </div>
+
+
         </div>
       </div>
     </div>
