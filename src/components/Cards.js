@@ -36,7 +36,7 @@ function Cards() {
             <CardItem
               src="images/calculator.png"
               text="An immediate execution calculator website that allow users to have fun"
-              path="https://qiantangreactrandomquotemachine.netlify.app/"
+              path="https://qiantangreactcalculator.netlify.app/"
             />
 
             <CardItem
