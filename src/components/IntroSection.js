@@ -12,11 +12,10 @@ class IntroSection extends Component {
         <h1>Qian Tang</h1>
         <p className="intro-para">qianxtang@gmail.com</p>
         <p className="intro-para">
-          I am seeking a position as a junior front-end Developer .
+          I am seeking a position as a Front End Developer.
         </p>
         <p className="intro-para">
-          My skills include HTML,CSS,JQuery, JavaScript,React, React Native,
-          Python, Java
+          My front end skills include JavaScript,React, React Native, HTML5, CSS, JQuery and back end skills include , Node.js, Express, REST API, JSON, MySQL/Firebase/MongoDB+Mongoose. And I am familiar with development tools like GitHub, VS Code, ATOM, Eclipse.
         </p>{" "}
         <p className="intro-para">
           I am looking forward to apply all my skills to make values.

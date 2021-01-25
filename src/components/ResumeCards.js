@@ -65,6 +65,19 @@ class ResumeCards extends Component {
             ]}
           />
           <ResumeCardItem
+            src="images/freeCodeCamp-logo.png"
+            schoolName="Full stack Web Projects"
+            major="Express+Node.js+MongoDB+Mongoose"
+            content="Major projects"
+            subjects={[
+              "Issue Tracker: This project allows a user to create a new issue by specifying mandatory/optional information. And a user can see all issues of a project, update an issue, or delete an issue",
+              "Personal Library: It allows a user to add a book as well as add comments to a book. A user can also read all comments of a book and delete a book/books",
+              "American/British Translator: This translator can translate American English to British English or vice versa, including time, special language usage",
+              "Sudoku Solver: This solver allows a user to input a sudoku string, where '.' stands for the empty grid, and give a solution to the puzzle",
+              "Metric/Imperial Converter: This Metric/Imperial Converter allows a user to convert between Metric and Imperial unit"
+            ]}
+          />
+          <ResumeCardItem
             src="images/android-logo.jpg"
             schoolName=" Game of Emotion App(Android) "
             major="Graduation Project "
