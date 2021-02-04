@@ -7,7 +7,6 @@ video {
 }
 
 .intro-container {
-  /* background: url("images/img-home.jpg") center center/cover no-repeat; */
   height: 100vh;
   width: 100%;
   display: flex;
@@ -29,7 +28,7 @@ video {
   margin-top: 8px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -40,23 +39,18 @@ video {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 15px;
   font-size: 1.5em;
 }
 
 .download-link {
   color: #fff;
 }
-
-.btns-container {
-  margin: 32px;
-  /* margin-right: 100px; */
-  /* background-color: blueviolet; */
+.skill-intro{
+  font-size: 22px;
+  color: #fff;
+  width: 65vw
 }
-
-/* .btns {
-  margin: 100px;
-} */
 
 @media screen and (max-width: 960px) {
   .intro-container > h1 {
@@ -64,7 +58,10 @@ video {
     margin-top: -150px;
   }
   .intro-container > p {
-    font-size: 23px;
+    font-size: 20px;
+  }
+  .skill-intro {
+    font-size: 18px;
   }
 }
 
@@ -74,18 +71,16 @@ video {
     margin-top: -100px;
   }
 
-  .intro-container > p {
-    font-size: 20px;
+  .intro-container p {
+    font-size: 15px;
+  }
+  .into-para p{
+    font-size: 15px;
+  }
+  .skill-intro  {
+    font-size: 13px;
   }
 
-  /* .btn-mobile {
-    display: block;
-    text-decoration: none;
-  }
-
-  .btn {
-    width: 100%;
-  } */
 }
 
 /*Social icons*/

@@ -12,13 +12,21 @@ class IntroSection extends Component {
         <h1>Qian Tang</h1>
         <p className="intro-para">qianxtang@gmail.com</p>
         <p className="intro-para">
-          I am seeking a position as a Front End Developer.
+          I am seeking a position as a Front End Developer. My key skills including:
         </p>
+        <br></br>
+        <div className="skill-intro">
+          <ul>
+            <li>Basic Front End: JavaScript(ES6), HTML5, CSS3 </li>
+            <li>Front End Framework: React + Redux, Vue + Vuex, JavaScript(ES6), JQuery, Boostrap</li>
+            <li>Basic Back End Framework: Node.js, Express, REST API, JSON, MySQL/Firebase/MongoDB+Mongoose</li>
+            <li>My development tools: GitHub, VS Code, ATOM, Eclipse</li>
+          </ul>
+          
+        </div>
+        <br></br>
         <p className="intro-para">
-          My front end skills include JavaScript,React, React Native, HTML5, CSS, JQuery and back end skills include , Node.js, Express, REST API, JSON, MySQL/Firebase/MongoDB+Mongoose. And I am familiar with development tools like GitHub, VS Code, ATOM, Eclipse.
-        </p>{" "}
-        <p className="intro-para">
-          I am looking forward to apply all my skills to make values.
+          I am looking forward to talking to you.
         </p>{" "}
         <div className="btns-container">
           <Button
@@ -43,6 +51,7 @@ class IntroSection extends Component {
             className="social-icon-link facebook"
             href="https://www.facebook.com/profile.php?id=100015576962274"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="Facebook"
           >
             <i className="fab fa-facebook-f" />
@@ -52,6 +61,7 @@ class IntroSection extends Component {
             className="social-icon-link linkedin"
             href="https://www.linkedin.com/in/qian-tang-ict/"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
             <i className="fab fa-linkedin" />
@@ -60,6 +70,7 @@ class IntroSection extends Component {
             className="social-icon-link github"
             href="https://github.com/qtang2"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="Github"
           >
             <i className="fab fa-github" />
@@ -69,6 +80,7 @@ class IntroSection extends Component {
           <Link
             to="/files/QianTang-resume.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             download
             className="download-link"
           >

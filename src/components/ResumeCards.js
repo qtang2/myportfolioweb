@@ -7,7 +7,7 @@ class ResumeCards extends Component {
   render() {
     return (
       <div>
-        <h1 id="resume_start"></h1>
+        <h1 id="resume_start"> </h1>
         <ul>
           <ResumeCardItem
             part="EDUCATION"

@@ -29,7 +29,6 @@ class Portfolio extends Component {
         <Element name="portfolio_start">
           <Cards />
         </Element>
-
         <Footer />
       </div>
     );
