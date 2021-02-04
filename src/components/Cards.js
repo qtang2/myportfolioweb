@@ -10,7 +10,7 @@ function Cards() {
         <h1> Those are my portfolio</h1>
         <div className="cards__wrapper">
           <div>
-            <h3 style={{ textAlign: "center" }}>Web--React</h3>
+            <h3 style={{ textAlign: "center" }}>Web--React&Vue</h3>
             <hr className="separate_line"/>
             <ul className="cards__items">
             <CardItem
@@ -44,6 +44,12 @@ function Cards() {
               text="This is pomodoro clock website where users can start timing"
               path="https://qiantangreactpomodoroclock.netlify.app/"
             />   
+
+            <CardItem
+              src="images/vue-realtimechat.png"
+              text="This real time chatting website where users can chatting with other user after login or register an account to start chatting"
+              path="https://qiantangvuerealtimechat.netlify.app/"
+            /> 
 
             
           </ul>
