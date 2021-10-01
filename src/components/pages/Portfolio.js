@@ -24,7 +24,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <a onClick={this.scrollTo} id="portfolio-a-link"></a>
+        <a onClick={this.scrollTo} id="portfolio-a-link" />
         <IntroSection />
         <Element name="portfolio_start">
           <Cards />

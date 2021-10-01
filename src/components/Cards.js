@@ -13,23 +13,40 @@ function Cards() {
             <h3 style={{ textAlign: "center" }}>Web--React&Vue</h3>
             <hr className="separate_line"/>
             <ul className="cards__items">
-            <CardItem
-              src="images/random-quote-machine.png"
-              text="A website that display a random quote in random colors "
-              path="https://qiantangreactrandomquotemachine.netlify.app/"
-            />
+              <CardItem
+                src="images/ihrm.png"
+                text="This HR management system that user could easily manage department, employee, salary, social security, approval and user permission."
+                path=""
+              /> 
+              <CardItem
+                src="images/vue-realtimechat.png"
+                text="This real time chatting website where users can chatting with other user after login or register an account to start chatting"
+                path="https://qiantangvuerealtimechat.netlify.app/"
+              /> 
+              <CardItem
+                src="images/articlemanagementsys.png"
+                text="This system help user to manage their articles, including add, edit, delete or save article draft. User can also change their profile or basic infomation."
+                path=""
+              /> 
+            </ul>
+            <ul className="cards__items">
+              <CardItem
+                src="images/random-quote-machine.png"
+                text="A website that display a random quote in random colors "
+                path="https://qiantangreactrandomquotemachine.netlify.app/"
+              />
 
-            <CardItem
-              src="images/markdown-previewer.png"
-              text="This is a editor previewer website where the pinputed text is rendered as HTML in the previewer window"
-              path="https://qiantangreactmarkdownpreviewer.netlify.app/"
-            />   
+              <CardItem
+                src="images/markdown-previewer.png"
+                text="This is a editor previewer website where the pinputed text is rendered as HTML in the previewer window"
+                path="https://qiantangreactmarkdownpreviewer.netlify.app/"
+              />   
 
-            <CardItem
-              src="images/drum-machine.png"
-              text="This is a drum machine website where you can click button to hit the clip or press related key to play the clip"
-              path="https://qiantangreactdrummachine.netlify.app/"
-            />   
+              <CardItem
+                src="images/drum-machine.png"
+                text="This is a drum machine website where you can click button to hit the clip or press related key to play the clip"
+                path="https://qiantangreactdrummachine.netlify.app/"
+              />   
           </ul>
 
           <ul className="cards__items">
@@ -43,15 +60,8 @@ function Cards() {
               src="images/clock.png"
               text="This is pomodoro clock website where users can start timing"
               path="https://qiantangreactpomodoroclock.netlify.app/"
-            />   
-
-            <CardItem
-              src="images/vue-realtimechat.png"
-              text="This real time chatting website where users can chatting with other user after login or register an account to start chatting"
-              path="https://qiantangvuerealtimechat.netlify.app/"
-            /> 
-
-            
+            />          
+           
           </ul>
           </div>
 
@@ -59,6 +69,19 @@ function Cards() {
             <h3 style={{ textAlign: "center" }}>Web</h3>
             <hr className="separate_line"/>
           </div>
+
+          <ul className="cards__items">
+            <CardItem
+              src="images/shoppingwebpage.png"
+              text="This is a shopping web page template"
+              path="https://qiantangshippingwebpage.netlify.app"
+            />
+            <CardItem
+              src="images/survey-form.png"
+              text="This is a survey web page which collects people's opinions"
+              path="https://codepen.io/qtang2/full/JjXwPwd"
+            />
+          </ul>
 
           <ul className="cards__items">
             <CardItem
@@ -76,11 +99,7 @@ function Cards() {
               text="A Technical Documentation web page about JS"
               path="https://codepen.io/qtang2/full/zYqyLVo"
             />
-            <CardItem
-              src="images/survey-form.png"
-              text="This is a survey web page which collects people's opinions"
-              path="https://codepen.io/qtang2/full/JjXwPwd"
-            />
+            
           </ul>
 
 
@@ -150,31 +169,33 @@ function Cards() {
             <hr className="separate_line"/>
             <ul className="cards__items">
             <CardItem
-              src="images/bar-chart.png"
-              text="A bar chart built by D3.js which shows the USA GDP from 1947-2015  "
-              path="https://codepen.io/qtang2/full/gOMmWxL"
-            />
-
+              src="images/charts-proj.png"
+              text="A data monitor and display platform website"
+              path="https://qiantangcharts.netlify.app"
+            />          
             <CardItem
               src="images/scatterplot-graph.png"
               text="A scatterplot graph built by D3.js which shows the data about doping in Professional Bicycle Racing USA GDP from 1947-2015"
               path="https://codepen.io/qtang2/full/rNLmjYN"
             />   
-
-            <CardItem
-              src="images/heat-map.png"
-              text="A heat map built with D3.js which gives information about monthly global Land-Surface temperature"
-              path="https://codepen.io/qtang2/full/MWeOYOx"
-            />   
-          </ul>
-
-          <ul className="cards__items">
             <CardItem
               src="images/choropleth-map.png"
               text="A choropleth map built with D3.js which shows the prcentage of adults age 25 and older with a bachelor's degree or higher (2010-2014) in USA"
               path="https://codepen.io/qtang2/full/MWeXYyy"
             />
+          </ul>
 
+          <ul className="cards__items">
+          <CardItem
+              src="images/heat-map.png"
+              text="A heat map built with D3.js which gives information about monthly global Land-Surface temperature"
+              path="https://codepen.io/qtang2/full/MWeOYOx"
+            />  
+            <CardItem
+              src="images/bar-chart.png"
+              text="A bar chart built by D3.js which shows the USA GDP from 1947-2015  "
+              path="https://codepen.io/qtang2/full/gOMmWxL"
+            />        
             <CardItem
               src="images/treemap-diagram.png"
               text="A treemap built with D3.js which shows the Highest crossiong movies"
